@@ -9,3 +9,7 @@ select,
 option {
     font: inherit;
 }
+
+a {
+    text-decoration: none;
+}
