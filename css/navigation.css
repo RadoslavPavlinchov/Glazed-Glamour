@@ -1,0 +1,16 @@
+.site-nav {}
+
+.site-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav li {
+    display: block;
+    list-style: none outside;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.5em 1em;
+}
