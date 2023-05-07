@@ -1,0 +1,21 @@
+.site-wrapper-wide {
+    max-width: 125em;
+    margin: 0 auto;
+}
+
+.site-wrapper-normal {
+    max-width: 85em;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: aqua;
+}
+
+.site-content {
+    background-color: aquamarine;
+}
+
+.site-footer {
+    background-color: bisque
+}
