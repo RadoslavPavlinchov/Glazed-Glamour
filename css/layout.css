@@ -1,6 +1,7 @@
 .site-wrapper-wide {
     max-width: 125em;
     margin: 0 auto;
+    /* background-color: green; */
 }
 
 .site-wrapper-normal {
@@ -9,7 +10,45 @@
 }
 
 .site-header {
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+.site-header .site-announcement-bar {
+    background-color: #fe90e7;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.site-header .site-announcement-bar .site-wrapper-wide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.65em 0;
+}
+
+.site-header .site-head {
+    background-color: #ffffff;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+}
+
+.site-header .site-head .site-wrapper-wide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.15em 0;
+}
+
+.site-header .site-nav-topics {
+    background-color: #ffc904;
+    border-bottom: 1px solid #000;
+}
+
+.site-header .site-nav-topics .site-wrapper-wide {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.6em 0;
 }
 
 .site-content {
